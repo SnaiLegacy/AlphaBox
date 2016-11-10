@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<application xmlns="http://ns.adobe.com/air/application/20.0">
+  <id>AlphaBox</id>
+  <versionNumber>1.0.120</versionNumber>
+  <filename>AlphaBox</filename>
+  <name>AlphaBox</name>
+  <initialWindow>
+    <title>AlphaBox</title>
+    <content>AlphaBox.swf</content>
+    <systemChrome>standard</systemChrome>
+    <transparent>false</transparent>
+    <visible>false</visible>
+    <minimizable>true</minimizable>
+    <maximizable>true</maximizable>
+    <resizable>true</resizable>
+    <autoOrients>true</autoOrients>
+    <requestedDisplayResolution>standard</requestedDisplayResolution>
+  </initialWindow>
+  <!-- 
+	More options:
+	http://livedocs.adobe.com/flex/3/html/File_formats_1.html#1043413
+	-->
+  <android>
+    <manifestAdditions><![CDATA[<manifest android:installLocation="auto" xmlns:android="http://schemas.android.com/apk/res/android" />]]></manifestAdditions>
+  </android>
+  <icon>
+    <image16x16>icons/AlphaBox16.png</image16x16>
+    <image32x32>icons/AlphaBox32.png</image32x32>
+    <image48x48>icons/AlphaBox48.png</image48x48>
+    <image76x76>icons/AlphaBox76.png</image76x76>
+    <image128x128>icons/AlphaBox128.png</image128x128>
+    <image512x512>icons/AlphaBox512.png</image512x512>
+  </icon>
+  <supportedProfiles>extendedDesktop</supportedProfiles>
+  <fileTypes>
+    <fileType>
+      <name>Alphabox.Text</name>
+      <extension>abp</extension>
+      <description>Alphabox Project File</description>
+      <contentType>text/plain</contentType>
+      <icon>
+        <image16x16>icons/AlphaBox16.png</image16x16>
+        <image32x32>icons/AlphaBox32.png</image32x32>
+        <image48x48>icons/AlphaBox48.png</image48x48>
+        <image128x128>icons/AlphaBox128.png</image128x128>
+        <image512x512>icons/AlphaBox512.png</image512x512>
+      </icon>
+    </fileType>
+  </fileTypes>
+</application>
